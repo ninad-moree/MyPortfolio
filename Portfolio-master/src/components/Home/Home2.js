@@ -19,36 +19,42 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am a Computer Engineering student in my third year at Pune Institute of Computer Technology (PICT).
+              I am also a full stack flutter developer and currently learning React and exploring AI and ML.
+              In my free time, I like to solve problems on Leetcode, Codechef and watch animes.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I am familiar with programming languages such as
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> C++, Python, Java, Javascript and Dart. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">Applications using Flutter</b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  Web Technologies.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              I am constantly working toards building new apps 
+              <b className="purple">  Flutter</b> for
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Android as well as IOS.
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; Also i am currently exploring the field of
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple">  Web Technology </b>
+              </i>
+              and learning 
+              <i>
+                <b className="purple">  ReactJS </b>
               </i>
             </p>
           </Col>
@@ -67,7 +73,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/ninad-moree"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,17 +83,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/ninad-more-65a942231/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +93,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/__ninad._18/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
