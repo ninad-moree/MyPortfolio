@@ -39,8 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand className="d-flex" >
-          Ninad More
-          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
+          <strong className="purple">Ninad More</strong> 
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

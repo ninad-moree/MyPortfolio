@@ -11,30 +11,24 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Ninad More </span>
             from <span className="purple"> Pune, India.</span>
             <br />
-            I am currently a third year student at Pune Institute.
+            I am a third year student at Pune Institute of Computer Technology <span className="purple"> (PICT).</span>
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I am currently persuing <span className="purple"> Computer Engineering</span> course.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Playing Games (mostly valorant)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Cricket and Badminton
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Drawing
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>
