@@ -20,6 +20,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   const [load, upadateLoad] = useState(true);
 
+  document.title = "MyPortfolio";
+
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
@@ -41,7 +43,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );
