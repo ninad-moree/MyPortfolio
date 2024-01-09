@@ -25,10 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="KodeKraken"
+              description="Second year PBL project built in flutter and used firebase as backend. Implemented uploading of assignments, version control, inbuilt code editor, student and teacher login functionality."
+              ghLink="https://github.com/ninad-moree/KodeKraken"
             />
           </Col>
 
@@ -36,10 +35,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Moviebook"
+              description="Explore an immersive cinematic journey through a user-friendly Flutter app. Discover enticing plot summaries, renowned cast details, and popular, trending, and upcoming films effortlessly. Enjoy personalized experiences, seamless feedback, and flexible login options via TMDB credentials or guest access."
+              ghLink="https://github.com/ninad-moree/MovieBook"
             />
           </Col>
 
@@ -47,10 +45,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Sociopedia"
+              description="A full stack MERN responsive website. Website has user login options and each user can post images on the website and like each others post, comment on post and add or remove a user as friend. Light and dark mode is also implemented in the website."
+              ghLink="https://github.com/ninad-moree/Sociopedia"             
             />
           </Col>
 
@@ -58,10 +55,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Movie Recommender"
+              description="Create a user-friendly Streamlit website powered by Python's data science libraries to offer personalized movie recommendations based on a content-based machine learning model. Users input a movie name and receive top 10 related movie suggestions, complete with posters, utilizing cosine similarity for accurate results."
+              ghLink="https://github.com/ninad-moree/MovieRecommender"
             />
           </Col>
 
@@ -69,9 +65,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="CurrencyFX"
+              description="We have created a dashboard which allows the users to analyze the exchange rates between two currencies over a period of time. Users have the option of selecting weekly, monthly, quarterly and yearly charts. The app displays the date on which the highest and lowest value of the currency has occured."
+              ghLink="https://github.com/ninad-moree/PICT-Team16-CurrencyFX"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -80,11 +76,9 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="E Commerce App"
+              description="This Flutter-based e-commerce app is designed to provide users with a seamless shopping experience. The application integrates Firebase for backend services, leveraging Firestore for managing product data and user information. It incorporates Google Sign-In for user authentication, ensuring a secure login experience."
+              ghLink="https://github.com/ninad-moree/E-Commerce"
             />
           </Col>
         </Row>
