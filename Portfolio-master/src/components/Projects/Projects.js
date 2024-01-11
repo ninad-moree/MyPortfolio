@@ -3,12 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 /* Project Image Path */
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import currenyfx from "../../Assets/Projects/CurrencyFX.png";
+import movierecom from "../../Assets/Projects/MovieRecommender.png";
 import kodekraken from "../../Assets/Projects/Kodekraken.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import moviebook from "../../Assets/Projects/Moviebook.png"
+import ecomm from "../../Assets/Projects/E-Commerce.jpg";
+import sociopedia from "../../Assets/Projects/Sociopedia.png";
 
 function Projects() {
   return (
@@ -34,7 +34,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={moviebook}
               isBlog={false}
               title="Moviebook"
               description="Explore an immersive cinematic journey through a user-friendly Flutter app. Discover enticing plot summaries, renowned cast details, and popular, trending, and upcoming films effortlessly. Enjoy personalized experiences, seamless feedback, and flexible login options via TMDB credentials or guest access."
@@ -44,7 +44,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={sociopedia}
               isBlog={false}
               title="Sociopedia"
               description="A full stack MERN responsive website. Website has user login options and each user can post images on the website and like each others post, comment on post and add or remove a user as friend. Light and dark mode is also implemented in the website."
@@ -54,7 +54,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={movierecom}
               isBlog={false}
               title="Movie Recommender"
               description="Create a user-friendly Streamlit website powered by Python's data science libraries to offer personalized movie recommendations based on a content-based machine learning model. Users input a movie name and receive top 10 related movie suggestions, complete with posters, utilizing cosine similarity for accurate results."
@@ -64,7 +64,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={currenyfx}
               isBlog={false}
               title="CurrencyFX"
               description="We have created a dashboard which allows the users to analyze the exchange rates between two currencies over a period of time. Users have the option of selecting weekly, monthly, quarterly and yearly charts. The app displays the date on which the highest and lowest value of the currency has occured."
@@ -75,7 +75,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={ecomm}
               isBlog={false}
               title="E Commerce App"
               description="This Flutter-based e-commerce app is designed to provide users with a seamless shopping experience. The application integrates Firebase for backend services, leveraging Firestore for managing product data and user information. It incorporates Google Sign-In for user authentication, ensuring a secure login experience."
